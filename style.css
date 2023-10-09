@@ -1,0 +1,167 @@
+/* Reset some default styles
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.upload-section, .result-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultMessage {
+    font-size: 16px;
+    color: #333;
+}
+
+#resultImage {
+    max-width: 100%;
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling Navbar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styling Sections */
+.section {
+    /* padding-bottom:80px ; */
+    padding-top: 50px;
+}
+
+.container-fluid {
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+/* Styling Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container-fluid .judul1{
+    text-align: center;
+    /* color: #fff; */
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    font-weight: bold;
+}
+#subjudul1{
+    text-align: center;
+    color: #464646;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.card-title , .judul2 {
+    text-align: center;
+    color: #3a3a3a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* card legendary menu*/
+#box .card {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#box .card:hover {
+    transform: translateY(-10px);
+}
